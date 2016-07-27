@@ -1,0 +1,70 @@
+﻿<resources>
+    <string name="app_name">Discrete Tools</string>
+    <string name="action_about">About</string>
+    <string name="enter_number">Enter a number</string>
+
+    <string name="home_title">Welcome to Discrete Tools!</string>
+
+    <string name="about_description">Created by Jared Grimes, synnebit LLC\n\nCopyright 2015</string>
+
+    <string name="a_prompt">Enter a constant a:</string>
+    <string name="b_prompt">Enter a constant b:</string>
+    <string name="c_prompt">Enter a constant c:</string>
+    <string name="d_prompt">Enter a constant d:</string>
+
+    <string name="button_send">Calculate!</string>
+    <string name="button_proof">Prove!</string>
+    <string name="button_generate">Generate!</string>
+    <string name="button_convert">Convert!</string>
+    <string name="button_expand">Expand!</string>
+
+    <string name="quadratic_welcome">Welcome to the Quadratic Root Calculator!</string>
+    <string name="cubic_welcome">\nWelcome to the Cubic Root Calculator!</string>
+    <string name="binomial_expansion_welcome">\nWelcome to Binomial Expansion Generator!</string>
+    <string name="title_activity_display_message">Roots Calculated!</string>
+    <string name="title_activity_about">About</string>
+    <string name="quadratic_description">Please enter 3 constants a, b, and c that appear in the form ax²+bx+c.</string>
+    <string name="cubic_description">Please enter 4 constants a, b, c, and d that appear in the form ax³+bx²+cx+d.</string>
+
+    <string name="induction_welcome">Welcome to the Prove by Induction Program!</string>
+    <string name="induction_description">Proof by Induction of Function ax³ + bx² + cx + d</string>
+    <string name="title_induction_proof">Proof Formulated!</string>
+
+    <string name="title_pascal">Pascals Triangle </string>
+    <string name="pascal_welcome">Welcome to the Pascals Triangle Generator!</string>
+    <string name="pascal_description">Outputs a Pascals Triangle based on a number of rows</string>
+    <string name="row_prompt">Enter the number of rows:</string>
+
+    <string name="title_activity_pascal_print">Pascals Triangle Created!</string>
+
+    <string name="title_baseconvert">Base Converter </string>
+    <string name="baseconvert_welcome">Welcome to the Base Converter!</string>
+    <string name="baseconvert_description">Converts a number into any base</string>
+    <string name="number_prompt">Enter the number you would like to convert:</string>
+    <string name="base_prompt">Enter the base you would like to convert to:</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main">Discrete Tools</string>
+    <string name="title_activity_quadratic">Quadratic Root Calculator</string>
+    <string name="title_activity_induction">Proof By Induction</string>
+    <string name="title_activity_pascal">Pascals Triangle Generator</string>
+    <string name="title_activity_induction_proof">Proof</string>
+    <string name="title_activity_base_converter">Base Converter</string>
+    <string name="title_activity_base_display">BaseDisplay</string>
+    <string name="title_activity_cubic">Cubic Root Calculator</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cubic_answer">Roots Calculated!</string>
+    <string name="title_activity_binomial_expansion">Binomial Expansion</string>
+    <string name="title_activity_binomial_print">Cubic Expanded!</string>
+    <string name="title_activity_expansion">Function Expanded!</string>
+
+    <string name="expansion_description">Please enter a power n.</string>
+    <string name="expansion_detail">You can also enter expressions x and y, and integers a and b in the form: (xᵃ + yᵇ)ⁿ.\n\nBy default, x and y will be x and y, and a and b will be 1</string>
+    <string name="n_prompt">Enter a constant n:</string>
+    <string name="x_prompt">Enter an expression x:</string>
+    <string name="y_prompt">Enter an expression y:</string>
+    <string name="title_activity_shortest_path">ShortestPath</string>
+
+</resources>

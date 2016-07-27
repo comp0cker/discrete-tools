@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_pascal"
+            android:icon="@drawable/pascals_triangle"
+            android:title="Pascal's Triangle" />
+        <item
+            android:id="@+id/nav_base"
+            android:icon="@drawable/base_converter"
+            android:title="Base Converter" />
+        <item
+            android:id="@+id/nav_induction"
+            android:icon="@drawable/prove_by_induction"
+            android:title="Proof By Induction" />
+        <item
+            android:id="@+id/nav_expansion"
+            android:icon="@drawable/binomial_expansion"
+            android:title="Binomial Expansion" />
+        <item
+            android:id="@+id/nav_quadratic"
+            android:icon="@drawable/quadtratic_root_calculator"
+            android:title="Quadratic Root Calculator" />
+        <!-- when the cubic equation doesn't work :'( i cri everytiem
+             i just kind of gave up on these. whoopsies.
+        <item
+            android:id="@+id/nav_cubic"
+            android:icon="@drawable/quadtratic_root_calculator"
+            android:title="Cubic Root Calculator" />
+        <item
+            android:id="@+id/nav_minimal_spanning_tree"
+            android:icon="@drawable/quadtratic_root_calculator"
+            android:title="Minimal Spanning Tree" />
+        <item
+            android:id="@+id/nav_shortest_path"
+            android:icon="@drawable/quadtratic_root_calculator"
+            android:title="Shortest Path" />
+        -->
+    </group>
+
+</menu>

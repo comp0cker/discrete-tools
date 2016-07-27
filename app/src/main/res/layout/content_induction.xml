@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_scroll_margin">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.synnebit.myfirstapplication.Induction"
+    tools:showIn="@layout/app_bar_induction"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_scroll_margin">
+
+    <TextView android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="@string/induction_welcome"
+        android:textSize="32sp"
+        android:textColor="#000000"/>
+    <TextView android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome"
+        android:paddingBottom="16dp"
+        android:text="@string/induction_description"
+        android:textSize="24sp"
+        android:textColor="#000000"/>
+    <TextView android:id="@+id/description_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description"
+        android:text="@string/a_prompt"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+    <EditText android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description_a"
+        android:inputType="phone"
+        />
+    <TextView android:id="@+id/description_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a"
+        android:text="@string/b_prompt"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+    <EditText android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description_b"
+        android:inputType="phone"
+        />
+    <TextView android:id="@+id/description_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b"
+        android:text="@string/c_prompt"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+    <EditText android:id="@+id/c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description_c"
+        android:inputType="phone"
+        />
+    <TextView android:id="@+id/description_d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c"
+        android:text="@string/d_prompt"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+    <EditText android:id="@+id/d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description_d"
+        android:inputType="phone"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/d"
+        android:text="@string/button_send"
+        android:onClick="sendMessage" />
+
+</RelativeLayout>
+</ScrollView>

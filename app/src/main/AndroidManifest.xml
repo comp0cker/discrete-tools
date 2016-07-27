@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.synnebit.myfirstapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName=".Quadratic"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.synnebit.myfirstapplication.Quadratic" />
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Quadratic"
+            android:label="@string/title_activity_quadratic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Induction"
+            android:label="@string/title_activity_induction"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InductionProof"
+            android:label="@string/title_activity_induction_proof"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pascal"
+            android:label="@string/title_activity_pascal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PascalPrint"
+            android:label="@string/title_activity_pascal_print"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BaseConverter"
+            android:label="@string/title_activity_base_converter"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BaseDisplay"
+            android:label="@string/title_activity_base_converter"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BinomialExpansion"
+            android:label="@string/title_activity_binomial_expansion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BinomialPrint"
+            android:label="@string/title_activity_binomial_print"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShortestPath"
+            android:label="@string/title_activity_shortest_path"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
